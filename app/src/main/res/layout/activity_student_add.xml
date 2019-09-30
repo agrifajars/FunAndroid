@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTambahSiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/tambah_siswa"
+        android:textAllCaps="true"
+        android:textStyle="bold|italic"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etNis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_rounded_edit_text"
+        android:drawableStart="@drawable/ic_fast_forward"
+        android:drawablePadding="10dp"
+        android:hint="NIS"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_rounded_edit_text"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:hint="nama"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvLupa"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_fill_orange_rounded"
+        android:fontFamily="@font/arial"
+        android:text="SIMPAN"
+        android:textColor="@android:color/white" />
+</LinearLayout>
